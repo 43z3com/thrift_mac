@@ -221,3 +221,5 @@ node_modules
 /tutorial/js/build/
 /ylwrap
 
+compile
+test-driver

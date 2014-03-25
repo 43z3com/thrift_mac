@@ -126,8 +126,8 @@ int main(int argc, char **argv)
                        protocolFactory);
 */
 
-  const char* privateKey = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.key" ;
-  const char* certificate = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.crt" ;
+  const char* privateKey = "/Workshop/thrift_mac/tutorial/cpp/key/server.key" ;
+  const char* certificate = "/Workshop/thrift_mac/tutorial/cpp/key/server.crt" ;
 //  const char* trustedCertificates = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.crt" ;
   int port = 9090;
 
