@@ -25,6 +25,8 @@
 #include <thrift/server/TThreadedServer.h>
 #include <thrift/transport/TServerSocket.h>
 #include <thrift/transport/TTransportUtils.h>
+#include <thrift/transport/TSSLServerSocket.h>
+#include <thrift/transport/TSSLSocket.h>
 
 #include <iostream>
 #include <stdexcept>
@@ -109,8 +111,9 @@ protected:
 
 };
 
-int main(int argc, char **argv) {
-
+int main(int argc, char **argv)
+{
+/*
   boost::shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
   boost::shared_ptr<CalculatorHandler> handler(new CalculatorHandler());
   boost::shared_ptr<TProcessor> processor(new CalculatorProcessor(handler));
@@ -121,6 +124,30 @@ int main(int argc, char **argv) {
                        serverTransport,
                        transportFactory,
                        protocolFactory);
+*/
+
+  const char* privateKey = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.key" ;
+  const char* certificate = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.crt" ;
+//  const char* trustedCertificates = "/Workshop/thrift_mac/thrift/tutorial/cpp/key/server.crt" ;
+  int port = 9090;
+
+  boost::shared_ptr<CalculatorHandler> handler(new CalculatorHandler());
+  boost::shared_ptr<TProcessor> processor(new CalculatorProcessor(handler));
+  boost::shared_ptr<TSSLSocketFactory> factory(new TSSLSocketFactory());
+//  factory->server(true);
+  factory->loadPrivateKey( privateKey );
+  factory->loadCertificate( certificate );
+  factory->ciphers("ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH");
+  boost::shared_ptr<TServerTransport> serverTransport(new TSSLServerSocket(port, factory));
+  boost::shared_ptr<TTransportFactory> transportFactory(new TBufferedTransportFactory());
+  boost::shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
+
+  TSimpleServer server(
+    processor ,
+    serverTransport ,
+    transportFactory,
+    protocolFactory
+  ) ;
 
 
   /**
@@ -137,12 +164,6 @@ int main(int argc, char **argv) {
                            transportFactory,
                            protocolFactory,
                            threadManager);
-
-  TThreadedServer server(processor,
-                         serverTransport,
-                         transportFactory,
-                         protocolFactory);
-
   */
 
   printf("Starting the server...\n");

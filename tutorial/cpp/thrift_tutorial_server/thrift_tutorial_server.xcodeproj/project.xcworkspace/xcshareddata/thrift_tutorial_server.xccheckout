@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31F569E8-4DA7-46F6-84F8-39910EBC849A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>thrift_tutorial_server</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD1303EC-E4F1-4846-9EB8-3F1CC6730B5D</key>
+		<string>https://git-wip-us.apache.org/repos/asf/thrift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tutorial/cpp/thrift_tutorial_server/thrift_tutorial_server.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD1303EC-E4F1-4846-9EB8-3F1CC6730B5D</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git-wip-us.apache.org/repos/asf/thrift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD1303EC-E4F1-4846-9EB8-3F1CC6730B5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD1303EC-E4F1-4846-9EB8-3F1CC6730B5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>thrift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

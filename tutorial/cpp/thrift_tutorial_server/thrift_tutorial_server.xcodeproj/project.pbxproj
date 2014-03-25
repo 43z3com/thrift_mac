@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EE1F0A18DDF3F700AE4821 /* SharedService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F0918DDF3F700AE4821 /* SharedService.cpp */; };
+		75EE1F0E18DDF42800AE4821 /* shared_constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F0C18DDF42800AE4821 /* shared_constants.cpp */; };
+		75EE1F1118DDF44600AE4821 /* shared_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F0F18DDF44600AE4821 /* shared_types.cpp */; };
+		75EE1F1718DDF4FA00AE4821 /* tutorial_constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F1318DDF4FA00AE4821 /* tutorial_constants.cpp */; };
+		75EE1F1818DDF4FA00AE4821 /* tutorial_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F1518DDF4FA00AE4821 /* tutorial_types.cpp */; };
+		75EE1F1A18DE0A8700AE4821 /* libthrift-1.0.0-dev.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE1F1918DE0A8700AE4821 /* libthrift-1.0.0-dev.dylib */; };
+		75EE1F1C18DE0AF000AE4821 /* libssl.1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE1F1B18DE0AF000AE4821 /* libssl.1.0.0.dylib */; };
+		75EE1F1E18DE0BAC00AE4821 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE1F1D18DE0BAC00AE4821 /* libpthread.dylib */; };
+		75EE1F2018DE0BE800AE4821 /* CppServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F1F18DE0BE800AE4821 /* CppServer.cpp */; };
+		75EE1F3018DE152900AE4821 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1F2E18DE152900AE4821 /* Calculator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75EE1EF918DDF31800AE4821 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75EE1EFB18DDF31800AE4821 /* thrift_tutorial_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = thrift_tutorial_server; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EE1F0918DDF3F700AE4821 /* SharedService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SharedService.cpp; path = "../../gen-cpp/SharedService.cpp"; sourceTree = "<group>"; };
+		75EE1F0B18DDF41D00AE4821 /* SharedService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SharedService.h; path = "../../gen-cpp/SharedService.h"; sourceTree = "<group>"; };
+		75EE1F0C18DDF42800AE4821 /* shared_constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shared_constants.cpp; path = "../../gen-cpp/shared_constants.cpp"; sourceTree = "<group>"; };
+		75EE1F0D18DDF42800AE4821 /* shared_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shared_constants.h; path = "../../gen-cpp/shared_constants.h"; sourceTree = "<group>"; };
+		75EE1F0F18DDF44600AE4821 /* shared_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shared_types.cpp; path = "../../gen-cpp/shared_types.cpp"; sourceTree = "<group>"; };
+		75EE1F1018DDF44600AE4821 /* shared_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shared_types.h; path = "../../gen-cpp/shared_types.h"; sourceTree = "<group>"; };
+		75EE1F1318DDF4FA00AE4821 /* tutorial_constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tutorial_constants.cpp; path = "../../gen-cpp/tutorial_constants.cpp"; sourceTree = "<group>"; };
+		75EE1F1418DDF4FA00AE4821 /* tutorial_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tutorial_constants.h; path = "../../gen-cpp/tutorial_constants.h"; sourceTree = "<group>"; };
+		75EE1F1518DDF4FA00AE4821 /* tutorial_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tutorial_types.cpp; path = "../../gen-cpp/tutorial_types.cpp"; sourceTree = "<group>"; };
+		75EE1F1618DDF4FA00AE4821 /* tutorial_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tutorial_types.h; path = "../../gen-cpp/tutorial_types.h"; sourceTree = "<group>"; };
+		75EE1F1918DE0A8700AE4821 /* libthrift-1.0.0-dev.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libthrift-1.0.0-dev.dylib"; path = "../../../../../../usr/local/lib/libthrift-1.0.0-dev.dylib"; sourceTree = "<group>"; };
+		75EE1F1B18DE0AF000AE4821 /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = ../../../../../../opt/local/lib/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		75EE1F1D18DE0BAC00AE4821 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		75EE1F1F18DE0BE800AE4821 /* CppServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppServer.cpp; path = ../../CppServer.cpp; sourceTree = "<group>"; };
+		75EE1F2E18DE152900AE4821 /* Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Calculator.cpp; path = "../../gen-cpp/Calculator.cpp"; sourceTree = "<group>"; };
+		75EE1F2F18DE152900AE4821 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = "../../gen-cpp/Calculator.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EE1EF818DDF31800AE4821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EE1F1E18DE0BAC00AE4821 /* libpthread.dylib in Frameworks */,
+				75EE1F1C18DE0AF000AE4821 /* libssl.1.0.0.dylib in Frameworks */,
+				75EE1F1A18DE0A8700AE4821 /* libthrift-1.0.0-dev.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EE1EF218DDF31800AE4821 = {
+			isa = PBXGroup;
+			children = (
+				75EE1F2418DE149100AE4821 /* resource */,
+				75EE1F1D18DE0BAC00AE4821 /* libpthread.dylib */,
+				75EE1F1B18DE0AF000AE4821 /* libssl.1.0.0.dylib */,
+				75EE1F1918DE0A8700AE4821 /* libthrift-1.0.0-dev.dylib */,
+				75EE1EFD18DDF31800AE4821 /* thrift_tutorial_server */,
+				75EE1EFC18DDF31800AE4821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EE1EFC18DDF31800AE4821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EE1EFB18DDF31800AE4821 /* thrift_tutorial_server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75EE1EFD18DDF31800AE4821 /* thrift_tutorial_server */ = {
+			isa = PBXGroup;
+			children = (
+				75EE1F1F18DE0BE800AE4821 /* CppServer.cpp */,
+				75EE1F1218DDF45300AE4821 /* gen-cpp */,
+			);
+			path = thrift_tutorial_server;
+			sourceTree = "<group>";
+		};
+		75EE1F1218DDF45300AE4821 /* gen-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				75EE1F2E18DE152900AE4821 /* Calculator.cpp */,
+				75EE1F2F18DE152900AE4821 /* Calculator.h */,
+				75EE1F1318DDF4FA00AE4821 /* tutorial_constants.cpp */,
+				75EE1F1418DDF4FA00AE4821 /* tutorial_constants.h */,
+				75EE1F1518DDF4FA00AE4821 /* tutorial_types.cpp */,
+				75EE1F1618DDF4FA00AE4821 /* tutorial_types.h */,
+				75EE1F0F18DDF44600AE4821 /* shared_types.cpp */,
+				75EE1F1018DDF44600AE4821 /* shared_types.h */,
+				75EE1F0C18DDF42800AE4821 /* shared_constants.cpp */,
+				75EE1F0D18DDF42800AE4821 /* shared_constants.h */,
+				75EE1F0B18DDF41D00AE4821 /* SharedService.h */,
+				75EE1F0918DDF3F700AE4821 /* SharedService.cpp */,
+			);
+			name = "gen-cpp";
+			sourceTree = "<group>";
+		};
+		75EE1F2418DE149100AE4821 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EE1EFA18DDF31800AE4821 /* thrift_tutorial_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EE1F0418DDF31800AE4821 /* Build configuration list for PBXNativeTarget "thrift_tutorial_server" */;
+			buildPhases = (
+				75EE1EF718DDF31800AE4821 /* Sources */,
+				75EE1EF818DDF31800AE4821 /* Frameworks */,
+				75EE1EF918DDF31800AE4821 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thrift_tutorial_server;
+			productName = thrift_tutorial_server;
+			productReference = 75EE1EFB18DDF31800AE4821 /* thrift_tutorial_server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EE1EF318DDF31800AE4821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "清水 健一";
+			};
+			buildConfigurationList = 75EE1EF618DDF31800AE4821 /* Build configuration list for PBXProject "thrift_tutorial_server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75EE1EF218DDF31800AE4821;
+			productRefGroup = 75EE1EFC18DDF31800AE4821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EE1EFA18DDF31800AE4821 /* thrift_tutorial_server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EE1EF718DDF31800AE4821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EE1F2018DE0BE800AE4821 /* CppServer.cpp in Sources */,
+				75EE1F1118DDF44600AE4821 /* shared_types.cpp in Sources */,
+				75EE1F1818DDF4FA00AE4821 /* tutorial_types.cpp in Sources */,
+				75EE1F3018DE152900AE4821 /* Calculator.cpp in Sources */,
+				75EE1F0E18DDF42800AE4821 /* shared_constants.cpp in Sources */,
+				75EE1F0A18DDF3F700AE4821 /* SharedService.cpp in Sources */,
+				75EE1F1718DDF4FA00AE4821 /* tutorial_constants.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75EE1F0218DDF31800AE4821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../..,
+					../../lib/cpp/src/thrift,
+					../../lib/cpp/src,
+					/opt/local/include,
+					/opt/local/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75EE1F0318DDF31800AE4821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../..,
+					../../lib/cpp/src/thrift,
+					../../lib/cpp/src,
+					/opt/local/include,
+					/opt/local/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75EE1F0518DDF31800AE4821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75EE1F0618DDF31800AE4821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EE1EF618DDF31800AE4821 /* Build configuration list for PBXProject "thrift_tutorial_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EE1F0218DDF31800AE4821 /* Debug */,
+				75EE1F0318DDF31800AE4821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EE1F0418DDF31800AE4821 /* Build configuration list for PBXNativeTarget "thrift_tutorial_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EE1F0518DDF31800AE4821 /* Debug */,
+				75EE1F0618DDF31800AE4821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75EE1EF318DDF31800AE4821 /* Project object */;
+}
